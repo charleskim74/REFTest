@@ -1,0 +1,13 @@
+﻿{
+  "Id": "_Ps_QyNUVEmoQexBGEQw9A",
+  "Reference": "nDM0cMBCLkmWiyUXk1CTJw/_Ps_QyNUVEmoQexBGEQw9A",
+  "ParentRef": "nDM0cMBCLkmWiyUXk1CTJw/CkRFPnSL0k-QKRWBrUcR8A",
+  "Name": "빠른 실행 도구 모음 사용자 지정",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Created": "2021-12-14T02:30:13.3208318Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=21.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2021-12-14T02:30:13.3208318Z"
+}

@@ -1,0 +1,13 @@
+﻿{
+  "Id": "TM5M2QGujk-yw2JbwyNHPA",
+  "Reference": "nDM0cMBCLkmWiyUXk1CTJw/TM5M2QGujk-yw2JbwyNHPA",
+  "ParentRef": "nDM0cMBCLkmWiyUXk1CTJw/CkRFPnSL0k-QKRWBrUcR8A",
+  "Name": "큰 아이콘",
+  "Type": "Element",
+  "TaxonomyType": "RadioButton",
+  "Created": "2021-12-14T02:30:21.0224323Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=21.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2021-12-14T02:30:21.0224323Z"
+}

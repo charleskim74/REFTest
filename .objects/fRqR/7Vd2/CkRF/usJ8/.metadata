@@ -1,0 +1,13 @@
+﻿{
+  "Id": "usJ8NL7lik-zynoAq3a5Ag",
+  "Reference": "nDM0cMBCLkmWiyUXk1CTJw/usJ8NL7lik-zynoAq3a5Ag",
+  "ParentRef": "nDM0cMBCLkmWiyUXk1CTJw/CkRFPnSL0k-QKRWBrUcR8A",
+  "Name": "사진(고정됨)",
+  "Type": "Element",
+  "TaxonomyType": "None",
+  "Created": "2021-12-14T02:30:17.7694974Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=21.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2021-12-14T02:30:17.7694974Z"
+}

@@ -1,0 +1,13 @@
+﻿{
+  "Id": "i_aWs_5rU0Wb4knpzMM-oA",
+  "Reference": "nDM0cMBCLkmWiyUXk1CTJw/i_aWs_5rU0Wb4knpzMM-oA",
+  "ParentRef": "nDM0cMBCLkmWiyUXk1CTJw/CkRFPnSL0k-QKRWBrUcR8A",
+  "Name": "내 PC",
+  "Type": "Element",
+  "TaxonomyType": "None",
+  "Created": "2021-12-14T02:30:18.4075682Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=21.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2021-12-14T02:30:18.4075682Z"
+}

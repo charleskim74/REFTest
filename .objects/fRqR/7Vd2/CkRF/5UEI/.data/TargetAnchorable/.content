@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-16"?>
+<TargetAnchorable ContentHash="hfgGcxa4Ukagn_D2krwWDQ" DesignTimeRectangle="614, 60, 204, 32" ElementType="InputBox" FriendlyName="'SearchEditBox'" FullSelectorArgument="&lt;wnd aaname='SearchEditBox' cls='ModernSearchBox' /&gt;" FuzzySelectorArgument="&lt;wnd aaname='SearchEditBox' cls='ModernSearchBox' /&gt;" Guid="e6a77202-94d5-4f22-80af-61a9b1e421fa" ScopeSelectorArgument="&lt;wnd app='explorer.exe' cls='CabinetWClass' title='바탕 화면' /&gt;" SearchSteps="Selector, FuzzySelector, Image" xmlns="http://schemas.uipath.com/workflow/activities/uix">
+  <imageRef attrName="ImageBase64" xmlns="">0qiiPTYsaxUSNpaLaxmR-pQ</imageRef>
+  <imageRef attrName="InformativeScreenshot" originalValue="49deaba4180849bda772c754298965b0.png" xmlns="">0dbyT9wojm0uy_TVl1_SZLg</imageRef>
+</TargetAnchorable>

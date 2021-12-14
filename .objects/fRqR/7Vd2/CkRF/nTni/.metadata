@@ -1,0 +1,13 @@
+﻿{
+  "Id": "nTni1tk0AkiWSPz0iw3fZw",
+  "Reference": "nDM0cMBCLkmWiyUXk1CTJw/nTni1tk0AkiWSPz0iw3fZw",
+  "ParentRef": "nDM0cMBCLkmWiyUXk1CTJw/CkRFPnSL0k-QKRWBrUcR8A",
+  "Name": "graphic (2)",
+  "Type": "Element",
+  "TaxonomyType": "Icon",
+  "Created": "2021-12-14T02:30:17.3825498Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=21.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2021-12-14T02:30:17.3825498Z"
+}

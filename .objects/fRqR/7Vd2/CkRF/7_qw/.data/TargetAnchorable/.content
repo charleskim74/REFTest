@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-16"?>
+<TargetAnchorable ContentHash="Pxkb7gIy9EqROShIKM-Mgw" DesignTimeRectangle="542, 61, 30, 30" ElementType="Button" FriendlyName="'이전 위치'" FullSelectorArgument="&lt;wnd cls='ToolbarWindow32' title='주소 밴드 도구 모음' /&gt;&lt;ctrl name='주소 밴드 도구 모음' role='tool bar' /&gt;&lt;ctrl name='이전 위치' role='push button' /&gt;" FuzzySelectorArgument="&lt;wnd cls='ToolbarWindow32' title='주소 밴드 도구 모음' /&gt;&lt;ctrl name='주소 밴드 도구 모음' role='tool bar' /&gt;&lt;ctrl name='이전 위치' role='push button' automationid='' check:text='이전 위치' /&gt;" Guid="34e0be73-0a5c-43a2-a97d-3fa6d862d476" ScopeSelectorArgument="&lt;wnd app='explorer.exe' cls='CabinetWClass' title='바탕 화면' /&gt;" SearchSteps="Selector, FuzzySelector, Image" xmlns="http://schemas.uipath.com/workflow/activities/uix">
+  <imageRef attrName="ImageBase64" xmlns="">0ZuccxNo1P02hqDcjpCgquA</imageRef>
+  <imageRef attrName="InformativeScreenshot" originalValue="04a1353c3e368dd7a8a4afa8cd175a10.png" xmlns="">0OOXgwWoO0Eajpsp9i0z3gQ</imageRef>
+</TargetAnchorable>

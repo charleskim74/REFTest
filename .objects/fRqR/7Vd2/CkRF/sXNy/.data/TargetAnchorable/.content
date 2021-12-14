@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-16"?>
+<TargetAnchorable ContentHash="blcqvETNkkOyCMeqvxZZRg" DesignTimeRectangle="572, 61, 30, 30" ElementType="Button" FriendlyName="'&quot;바탕 화면&quot; 새로 고침(F5)'" FullSelectorArgument="&lt;wnd cls='ToolbarWindow32' title='주소 밴드 도구 모음' /&gt;&lt;ctrl name='주소 밴드 도구 모음' role='tool bar' /&gt;&lt;ctrl name='&amp;quot;바탕 화면&amp;quot; 새로 고침(F5)' role='push button' /&gt;" FuzzySelectorArgument="&lt;wnd cls='ToolbarWindow32' title='주소 밴드 도구 모음' /&gt;&lt;ctrl name='주소 밴드 도구 모음' role='tool bar' /&gt;&lt;ctrl name='&amp;quot;바탕 화면&amp;quot; 새로 고침(F5)' role='push button' automationid='' check:text='&amp;quot;바탕 화면&amp;quot; 새로 고침(F5)' /&gt;" Guid="380a6482-b7b3-48b1-9c2d-0042cdf4ca13" ScopeSelectorArgument="&lt;wnd app='explorer.exe' cls='CabinetWClass' title='바탕 화면' /&gt;" SearchSteps="Selector, FuzzySelector, Image" xmlns="http://schemas.uipath.com/workflow/activities/uix">
+  <imageRef attrName="ImageBase64" xmlns="">0lSzpwTWpWE235jAN7r_T6g</imageRef>
+  <imageRef attrName="InformativeScreenshot" originalValue="517b55686a795f31c4edf4afe60fbb68.png" xmlns="">070-bZE1ZH0ORNeTMy0tedg</imageRef>
+</TargetAnchorable>

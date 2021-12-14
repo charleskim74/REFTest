@@ -1,0 +1,13 @@
+﻿{
+  "Id": "5UEIiMHpm0eT_3ZZGng59w",
+  "Reference": "nDM0cMBCLkmWiyUXk1CTJw/5UEIiMHpm0eT_3ZZGng59w",
+  "ParentRef": "nDM0cMBCLkmWiyUXk1CTJw/CkRFPnSL0k-QKRWBrUcR8A",
+  "Name": "SearchEditBox",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Created": "2021-12-14T02:30:14.6417636Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=21.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2021-12-14T02:30:14.6417636Z"
+}

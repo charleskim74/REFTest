@@ -1,0 +1,13 @@
+﻿{
+  "Id": "AadSLm8Wbk20rNEAmDAO6g",
+  "Reference": "nDM0cMBCLkmWiyUXk1CTJw/AadSLm8Wbk20rNEAmDAO6g",
+  "ParentRef": "nDM0cMBCLkmWiyUXk1CTJw/CkRFPnSL0k-QKRWBrUcR8A",
+  "Name": "뒤로(Alt+왼쪽 화살표)",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Created": "2021-12-14T02:30:14.7903634Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=21.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2021-12-14T02:30:14.7903634Z"
+}

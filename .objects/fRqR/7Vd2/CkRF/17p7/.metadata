@@ -1,0 +1,13 @@
+﻿{
+  "Id": "17p7WeWwI0Wcf1KDTGpwkw",
+  "Reference": "nDM0cMBCLkmWiyUXk1CTJw/17p7WeWwI0Wcf1KDTGpwkw",
+  "ParentRef": "nDM0cMBCLkmWiyUXk1CTJw/CkRFPnSL0k-QKRWBrUcR8A",
+  "Name": "파일 탭",
+  "Type": "Element",
+  "TaxonomyType": "None",
+  "Created": "2021-12-14T02:30:13.8423826Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=21.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2021-12-14T02:30:13.8423826Z"
+}

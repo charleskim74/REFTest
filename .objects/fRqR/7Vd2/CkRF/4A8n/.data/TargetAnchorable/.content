@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-16"?>
+<TargetAnchorable ContentHash="VItF8y_V4kGzxe2aFWvJ1A" DesignTimeRectangle="690, 1, 47, 30" ElementType="Button" FriendlyName="'최소화'" FullSelectorArgument="&lt;ctrl name='최소화' role='push button' /&gt;" FuzzySelectorArgument="&lt;ctrl name='최소화' role='push button' automationid='' check:text='최소화' /&gt;" Guid="cbf611da-8682-4d0d-a666-12289c3920bf" ScopeSelectorArgument="&lt;wnd app='explorer.exe' cls='CabinetWClass' title='바탕 화면' /&gt;" SearchSteps="Selector, FuzzySelector, Image" xmlns="http://schemas.uipath.com/workflow/activities/uix">
+  <imageRef attrName="ImageBase64" xmlns="">0ZfN1aRd_7UavYce8PeNbdg</imageRef>
+  <imageRef attrName="InformativeScreenshot" originalValue="62deba9ee50a3c38df0a01c5d32be59f.png" xmlns="">0mtmPCfFo0UyZ7tDyNVD4VA</imageRef>
+</TargetAnchorable>

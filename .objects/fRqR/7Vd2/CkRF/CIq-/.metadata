@@ -1,0 +1,13 @@
+﻿{
+  "Id": "CIq-i7ZR9k29RlUnWuLcZA",
+  "Reference": "nDM0cMBCLkmWiyUXk1CTJw/CIq-i7ZR9k29RlUnWuLcZA",
+  "ParentRef": "nDM0cMBCLkmWiyUXk1CTJw/CkRFPnSL0k-QKRWBrUcR8A",
+  "Name": "즐겨찾기",
+  "Type": "Element",
+  "TaxonomyType": "None",
+  "Created": "2021-12-14T02:30:16.546734Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=21.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2021-12-14T02:30:16.546734Z"
+}

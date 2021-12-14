@@ -1,0 +1,13 @@
+﻿{
+  "Id": "865XD1PWckGf17fAwiof5Q",
+  "Reference": "nDM0cMBCLkmWiyUXk1CTJw/865XD1PWckGf17fAwiof5Q",
+  "ParentRef": "nDM0cMBCLkmWiyUXk1CTJw/CkRFPnSL0k-QKRWBrUcR8A",
+  "Name": "다운로드",
+  "Type": "Element",
+  "TaxonomyType": "None",
+  "Created": "2021-12-14T02:30:19.3756413Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=21.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2021-12-14T02:30:19.3756413Z"
+}

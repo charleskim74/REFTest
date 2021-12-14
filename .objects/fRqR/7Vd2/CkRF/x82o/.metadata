@@ -1,0 +1,13 @@
+﻿{
+  "Id": "x82oF-KvL0SrQ8RJIZm-UQ",
+  "Reference": "nDM0cMBCLkmWiyUXk1CTJw/x82oF-KvL0SrQ8RJIZm-UQ",
+  "ParentRef": "nDM0cMBCLkmWiyUXk1CTJw/CkRFPnSL0k-QKRWBrUcR8A",
+  "Name": "최대화",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Created": "2021-12-14T02:30:13.5806493Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=21.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2021-12-14T02:30:13.5806493Z"
+}

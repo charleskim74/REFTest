@@ -1,0 +1,13 @@
+﻿{
+  "Id": "oBaA8xbbb0WocbjH0aby6Q",
+  "Reference": "nDM0cMBCLkmWiyUXk1CTJw/oBaA8xbbb0WocbjH0aby6Q",
+  "ParentRef": "nDM0cMBCLkmWiyUXk1CTJw/CkRFPnSL0k-QKRWBrUcR8A",
+  "Name": "Windows10 (C:)",
+  "Type": "Element",
+  "TaxonomyType": "None",
+  "Created": "2021-12-14T02:30:20.3881946Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=21.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2021-12-14T02:30:20.3881946Z"
+}

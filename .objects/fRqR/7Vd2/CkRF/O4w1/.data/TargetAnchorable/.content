@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-16"?>
+<TargetAnchorable ContentHash="K0iVtckNhk-pULxNIaJFeg" DesignTimeRectangle="8, 8, 22, 22" FriendlyName="'시스템'" FullSelectorArgument="&lt;ctrl automationid='MenuBar' /&gt;&lt;ctrl name='시스템' role='menu item' /&gt;" FuzzySelectorArgument="&lt;ctrl automationid='MenuBar' /&gt;&lt;ctrl name='시스템' role='menu item' automationid='' check:text='시스템' /&gt;" Guid="aea0d171-8873-4dd9-9908-a86c5c671511" ScopeSelectorArgument="&lt;wnd app='explorer.exe' cls='CabinetWClass' title='바탕 화면' /&gt;" SearchSteps="Selector, FuzzySelector, Image" xmlns="http://schemas.uipath.com/workflow/activities/uix">
+  <imageRef attrName="ImageBase64" xmlns="">0pkheGk6xV0W3pmOqlSyu4w</imageRef>
+  <imageRef attrName="InformativeScreenshot" originalValue="50f4b5a5d8ca088853028cb30518b384.png" xmlns="">08mBRzJ8RxEiwY96nF6jHHg</imageRef>
+</TargetAnchorable>

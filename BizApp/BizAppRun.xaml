@@ -1,0 +1,338 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="BizAppRun" mva:VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="1184,1678" sap2010:WorkflowViewState.IdRef="BizAppRun_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mva="clr-namespace:Microsoft.VisualBasic.Activities;assembly=System.Activities" xmlns:p="http://schemas.uipath.com/workflow/activities/cv" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=mscorlib" xmlns:sd="clr-namespace:System.Drawing;assembly=System.Drawing" xmlns:uc="clr-namespace:UiPath.CV;assembly=UiPath.CV" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>System.Runtime.InteropServices</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.CV</x:String>
+      <x:String>UiPath.Shared.ObjectLibrary</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>UiPath.CV.Activities</x:String>
+      <x:String>System.Activities.DynamicUpdate</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Vision.OCR</x:String>
+      <x:String>UiPath.OCR.Contracts</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>UiPath.OCR.Contracts.Activities</x:String>
+      <x:String>UiPath.Core.Activities.OCR.Engines</x:String>
+      <x:String>UiPath.CV.Activities.Interfaces</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>PresentationCore</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.ServiceModel</AssemblyReference>
+      <AssemblyReference>Microsoft.Bcl.AsyncInterfaces</AssemblyReference>
+      <AssemblyReference>System.ValueTuple</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Composition</AssemblyReference>
+      <AssemblyReference>UiPath.Excel</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.CV</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities.Design</AssemblyReference>
+      <AssemblyReference>UiPath.CV.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Testing.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>UiPath.Vision.Core</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Contracts</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities.Design</AssemblyReference>
+      <AssemblyReference>System.Runtime.WindowsRuntime</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="BizAppRun" sap:VirtualizedContainerService.HintSize="672,1613" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Application: 바탕 화면" sap:VirtualizedContainerService.HintSize="630,1521" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" ScopeGuid="98b09e0c-5fd6-483d-9836-3677e99eab68" Version="V1">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="실행" sap:VirtualizedContainerService.HintSize="596,1229" sap2010:WorkflowViewState.IdRef="Sequence_3">
+            <Sequence.Variables>
+              <Variable x:TypeArguments="x:String" Default="커리큘럼_및_교육시간표_UiPath_RPA전문가교육" Name="FileName" />
+            </Sequence.Variables>
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <ui:WaitUiElementAppear FoundElement="{x:Null}" WaitActive="{x:Null}" WaitVisible="{x:Null}" DisplayName="Find Element" sap:VirtualizedContainerService.HintSize="554,68" sap2010:WorkflowViewState.IdRef="WaitUiElementAppear_1">
+              <ui:WaitUiElementAppear.Target>
+                <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Selector="{x:Null}" Id="55468b9c-3fa7-4997-a65d-5b9769940426">
+                  <ui:Target.TimeoutMS>
+                    <InArgument x:TypeArguments="x:Int32" />
+                  </ui:Target.TimeoutMS>
+                  <ui:Target.WaitForReady>
+                    <InArgument x:TypeArguments="ui:WaitForReady" />
+                  </ui:Target.WaitForReady>
+                </ui:Target>
+              </ui:WaitUiElementAppear.Target>
+            </ui:WaitUiElementAppear>
+            <uix:NCheckState Exists="{x:Null}" DisplayName="Check App State '수업교재'" sap:VirtualizedContainerService.HintSize="554,343" sap2010:WorkflowViewState.IdRef="NCheckState_1" ScopeIdentifier="98b09e0c-5fd6-483d-9836-3677e99eab68" Timeout="10" Version="V1">
+              <uix:NCheckState.IfExists>
+                <Sequence DisplayName="타겟이 나타남" sap:VirtualizedContainerService.HintSize="250,85" sap2010:WorkflowViewState.IdRef="Sequence_4">
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                </Sequence>
+              </uix:NCheckState.IfExists>
+              <uix:NCheckState.IfNotExists>
+                <Sequence DisplayName="타겟이 나타나지 않음" sap:VirtualizedContainerService.HintSize="250,85" sap2010:WorkflowViewState.IdRef="Sequence_5">
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                </Sequence>
+              </uix:NCheckState.IfNotExists>
+              <uix:NCheckState.Target>
+                <uix:TargetAnchorable DesignTimeRectangle="204, 255, 236, 22" ElementType="Text" FriendlyName="'수업교재'" FullSelectorArgument="&lt;wnd cls='ShellTabWindowClass' title='바탕 화면' /&gt;&lt;wnd aaname='탐색 창' cls='DirectUIHWND' /&gt;&lt;wnd aaname='셸 폴더 보기' cls='SHELLDLL_DefView' title='ShellView' /&gt;&lt;wnd aaname='항목 보기' cls='DirectUIHWND' /&gt;&lt;ctrl name='항목 보기' role='list' /&gt;&lt;ctrl automationid='6' /&gt;&lt;ctrl automationid='System.ItemNameDisplay' /&gt;" FuzzySelectorArgument="&lt;wnd cls='ShellTabWindowClass' title='바탕 화면' /&gt;&lt;wnd aaname='탐색 창' cls='DirectUIHWND' /&gt;&lt;wnd aaname='셸 폴더 보기' cls='SHELLDLL_DefView' title='ShellView' /&gt;&lt;wnd aaname='항목 보기' cls='DirectUIHWND' /&gt;&lt;ctrl name='항목 보기' role='list' /&gt;&lt;ctrl automationid='6' /&gt;&lt;ctrl automationid='System.ItemNameDisplay' role='editable text' check:text='수업교재' /&gt;" Guid="c660ad41-907c-4f58-8b9b-b52c72390ace" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAPAAAAAaCAYAAACJitF2AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAFeSURBVHhe7dndlYMgEEBh6qIg2qEamqEY2SWuMIBxzQn7M4f78L1Eor7cjBizbVsCoBMBA4oRMKAYAQOKETCgGAEDihEwoNitgKO3yfp4eqwILhljChfqseBs8lGs3WLytq4dWJ9iWZu/P67J93OcN9+fvB6wihsBf8XWRdWIPlnjUiifheRMjXYM+EI+15Nr9aESMFZ3HfAjzH3a5UiMiLLxOX37Cb2vPyYmAQM/4TTg8sg6hCQefV2on8+ewPLcQr4vAgaqeS+xXtoD72R4Zc3TgPOPQvvDIffGBIwVzQv4woyAj7XB1UnPBMbqxoC7SXrl3WhOA87X7wOW+2IROAFjdbcmcA7k27+RHvtjuQ+uXprA3Zr90bk973E/BIzVTQ74fFI3b6EnTngCxur+dAK/i4Cxut+fwBMRMFZ3K2AA/xMBA4oRMKAYAQOKETCgGAEDihEwoBgBA2pt6QOUe3CW0MMrzAAAAABJRU5ErkJggg==" InformativeScreenshot="85d0ceb541f22eb54393ef372d9ec7bc.png" ScopeSelectorArgument="&lt;wnd app='explorer.exe' cls='CabinetWClass' title='바탕 화면' /&gt;" SearchSteps="Selector, FuzzySelector" />
+              </uix:NCheckState.Target>
+            </uix:NCheckState>
+            <uix:NClick ClickType="Single" DisplayName="Click '커리큘럼_및_교육시간표_UiPath_RPA…'" sap:VirtualizedContainerService.HintSize="554,157" sap2010:WorkflowViewState.IdRef="NClick_1" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="98b09e0c-5fd6-483d-9836-3677e99eab68" Version="V1">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable DesignTimeRectangle="204, 129, 236, 22" ElementType="Text" FriendlyName="'커리큘럼_및_교육시간표_UiPath_RPA…'" FullSelectorArgument="&lt;wnd cls='ShellTabWindowClass' title='바탕 화면' /&gt;&lt;wnd aaname='탐색 창' cls='DirectUIHWND' /&gt;&lt;wnd aaname='셸 폴더 보기' cls='SHELLDLL_DefView' title='ShellView' /&gt;&lt;wnd aaname='항목 보기' cls='DirectUIHWND' /&gt;&lt;ctrl name='항목 보기' role='list' /&gt;&lt;ctrl automationid='0' /&gt;&lt;ctrl automationid='System.ItemNameDisplay' name='이름' role='editable text' /&gt;" FuzzySelectorArgument="[String.Format(&quot;&lt;wnd cls='ShellTabWindowClass' title='바탕 화면' /&gt;&lt;wnd aaname='탐색 창' cls='DirectUIHWND' /&gt;&lt;wnd aaname='셸 폴더 보기' cls='SHELLDLL_DefView' title='ShellView' /&gt;&lt;wnd aaname='항목 보기' cls='DirectUIHWND' /&gt;&lt;ctrl name='항목 보기' role='list' /&gt;&lt;ctrl automationid='0' /&gt;&lt;ctrl automationid='System.ItemNameDisplay' name='이름' role='editable text' check:text='{0}' /&gt;&quot;, FileName)]" Guid="31682c98-5e4e-467b-9624-63bdef815a5e" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAPAAAAAaCAYAAACJitF2AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAQ+SURBVHhe7ZnrkesgDIVTlwtyO67GzaSY+CIwtiQkGRLy4K5+fDMbA0Ic6eBk9vZ4PDbHccbEDew4A+MGdpyBcQM7zsC4gR1nYNzAjjMwbmDHGRjRwOt82243xrzu4/dtmeZtxWvWuZw/Ldtdmx+4L1O5JnPslVm32ZizztO23PF8CSHG7VxXFwPOwmMgjjNTbD0F7ss2CeM8R0nDabmncagJjwFx2XxKjQafBGpW9s43EGt46CX3+CeoewOHZjgaoyrZIPyFgVWU5iWwOdUGZgbD6+piGEBOgoHBZKd2188jlQbmQMx53T9LBn4ZyVBQ3z2veEHkHMvL7shNBcWKn1sNDPPxnjhWXT7RqJZuYm0ae7wjVQamjVOT7JWBSzEJhUC8MDBnQTFwfho4p8Q3DQyN0tfArNkNAxOjA+SCtmB7RKCWUl78Oay90lha02IMQQPSh1f5hGehVwFtT9Dutu+R/s492JJnPwQDw8FyUjtBhNVKFoTC8wHTwAZi84KwpTkydeYrY3Q3sGKY5q/QUc9SMyvH4qJANeFvmvcZGI9zw7B9UX5pb5iP9Im1SvEW1HvSW/OE59eQD7DroF+uZz50vLHHO3L5BobDUNGEZM0GYPNR4a449w3C9TBwsce5rsXAuPDHOsPAbaRGm0Iz82bVcoR8it/foLPxBsb14p91uEEAbIxaw4SxJecGa/I8vibV7MgNNC72x7D8iAZWPnl81xzWcT3j3mdN6FdtWGvl9T5MA9MkM0KyLQbGsCajgmJSIan5sJi0MM/Q3cBwNiFnCXLmrInQrFKOsUbS5ca0PZ4J+2Nk/TPMIBFsDDyOnwcM853nYmuK/fg4h/UJOf9FPuQzxMH7wFquDX4Gf8tnezeKgXcheANEhGRDY7QaGEyAGwdT9zZ4FcjLagYd0cCSYTJsrPxWs8OaKmqEzEkNnGqkamXkA3HxOv5ZhxsKwDricXiO68q0JpdJHuM14ftd1QzNLy4MO5+oNatRfR9CbK7LZxAMnA6q38RCsqQYGJjXeLgQSxaOFwBjFRWh5pmoLZhoYDYnYeXM9lPeULixxL00o2rPA30NjJ9xAyvasNz6voHP+dSU1lpYJ9XIOisGYkvP38/lb+CS1mTl+VFcUTTNSHoBbBMpRMM03LIX5sfolx8ixKvee6fJwJxO+fOfVdQkdQYmF0aswzmPfjt5zcDpc55vrAVtip8hMJ9roRn4e3zVwFWNfqAXoNXA6fJIOam/Id/Npw3cjdTYh+GJdnUGTvPO9Qs+V75oYlxuGCsmUBos1jrGsvpHubQKbSsNjC8l7W9p3RP85BtYNhTEEeZG6kSJZg3zC+Psb2PpXzdvo6eBiRaYD57nT4AuHoG2F1IfnjDwLyMJ3Hrj9YgxOr+ugdco858Z2HH+Fm5gxxkYN7DjDIwb2HEGxg3sOAPjBnacgXEDO86wPLZ/n1yL910vpsgAAAAASUVORK5CYII=" InformativeScreenshot="bb2af4e6932bc4e45725c9472c8ad9c5.png" ScopeSelectorArgument="&lt;wnd app='explorer.exe' cls='CabinetWClass' title='바탕 화면' /&gt;" SearchSteps="Selector, FuzzySelector, Image" />
+              </uix:NClick.Target>
+            </uix:NClick>
+            <p:CVScope ContinueOnError="{x:Null}" DelayBefore="{x:Null}" Server="{x:Null}" CvMethod="ElementDetection, OCR" DesignTimeCacheId="6eb7062f-2208-47a9-96f8-2e80ea71d556" DisplayName="CV Screen Scope 'DirectUIHWND'" sap:VirtualizedContainerService.HintSize="554,448" sap2010:WorkflowViewState.IdRef="CVScope_1" UseLocalServer="True" Version="V3">
+              <p:CVScope.Body>
+                <ActivityAction x:TypeArguments="x:Object">
+                  <ActivityAction.Argument>
+                    <DelegateInArgument x:TypeArguments="x:Object" Name="CVSessionData" />
+                  </ActivityAction.Argument>
+                  <Sequence DisplayName="실행" sap2010:WorkflowViewState.IdRef="Sequence_2">
+                    <p:CvClickWithDescriptor DelayBefore="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" SimulateClick="{x:Null}" ClickType="CLICK_SINGLE" Descriptor="[&quot;Target: InputBox (417,1,31,23)&quot; +&#xD;&#xA;&quot;Anchor: Text '수성한 날짜' (278,7,64,11)&quot;]" DesignTimeCacheId="6eb7062f-2208-47a9-96f8-2e80ea71d556" DesignTimeScaleFactor="1" DisplayName="CV Click - InputBox" sap:VirtualizedContainerService.HintSize="400,137" sap2010:WorkflowViewState.IdRef="CvClickWithDescriptor_1" InformativeScreenshot="c3eba1535aae82304b1158b717cb5448" KeyModifiers="None" MouseButton="BTN_LEFT" Version="V3">
+                      <p:CvClickWithDescriptor.CursorPosition>
+                        <ui:CursorPosition Position="Center">
+                          <ui:CursorPosition.OffsetX>
+                            <InArgument x:TypeArguments="x:Int32" />
+                          </ui:CursorPosition.OffsetX>
+                          <ui:CursorPosition.OffsetY>
+                            <InArgument x:TypeArguments="x:Int32" />
+                          </ui:CursorPosition.OffsetY>
+                        </ui:CursorPosition>
+                      </p:CvClickWithDescriptor.CursorPosition>
+                      <p:CvClickWithDescriptor.DesignTimeDescriptor>
+                        <uc:CvDescriptor>
+                          <uc:CvDescriptor.Anchors>
+                            <x:Array Type="uc:CvElementDescriptor">
+                              <uc:CvElementDescriptor CellExtraInfo="{x:Null}" DesignTimeArea="278, 7, 64, 11" ElementType="Text" Text="수성한 날짜" />
+                            </x:Array>
+                          </uc:CvDescriptor.Anchors>
+                          <uc:CvDescriptor.Target>
+                            <uc:CvElementDescriptor CellExtraInfo="{x:Null}" DesignTimeArea="417, 1, 31, 23" ElementType="InputBox" />
+                          </uc:CvDescriptor.Target>
+                        </uc:CvDescriptor>
+                      </p:CvClickWithDescriptor.DesignTimeDescriptor>
+                      <p:CvClickWithDescriptor.Target>
+                        <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Selector="{x:Null}" Id="b97b5056-a878-4a76-85bc-e76c31e12c86">
+                          <ui:Target.TimeoutMS>
+                            <InArgument x:TypeArguments="x:Int32" />
+                          </ui:Target.TimeoutMS>
+                          <ui:Target.WaitForReady>
+                            <InArgument x:TypeArguments="ui:WaitForReady" />
+                          </ui:Target.WaitForReady>
+                        </ui:Target>
+                      </p:CvClickWithDescriptor.Target>
+                    </p:CvClickWithDescriptor>
+                  </Sequence>
+                </ActivityAction>
+              </p:CVScope.Body>
+              <p:CVScope.DesignTimeCache>
+                <uc:CVCache CvUiElements="{x:Null}" OcrTexts="{x:Null}" />
+              </p:CVScope.DesignTimeCache>
+              <p:CVScope.DesignTimeCacheContainer>
+                <uc:CvCacheContainer>
+                  <uc:CvCacheContainer.Caches>
+                    <scg:List x:TypeArguments="uc:CVCache" Capacity="1">
+                      <uc:CVCache DisplayName="화면 CV Click - '수성한 날짜' (기본)" Id="6eb7062f-2208-47a9-96f8-2e80ea71d556" InformativeScreenshot="5245a6593c8d17d702584fe584c09b46" LogicalPosition="193, 290" OcrText="Gather&#xD;&#xA;Micr050ft Edge&#xD;&#xA;수 IJ Cloud&#xD;&#xA;得 UiPathRemoteRuntime&#xD;&#xA;囹 Zoom&#xD;&#xA;己l큘럼 및-교육시간표_Ui닫ath_R닫A전-_&#xD;&#xA;크루 검색기릌 삭제 수성한 날짜&#xD;&#xA;2021-09-27(결) 오후 -&#xD;&#xA;2021-09-27(결) 오후 -&#xD;&#xA;2021-05&#xD;&#xA;2021-12&#xD;&#xA;2021-12&#xD;&#xA;2021-12&#xD;&#xA;2021-12&#xD;&#xA;2021-05 -19(수) 오후 -&#xD;&#xA;-14(화) 오전 -&#xD;&#xA;-10(금) 오전 -&#xD;&#xA;-14(화) 오전 -&#xD;&#xA;-14(화) 오전 -&#xD;&#xA;-19(수) 오후 - 바로 가기&#xD;&#xA;바로 가기&#xD;&#xA;인터넷 바로 가기&#xD;&#xA;Wind0W5 In5taller__&#xD;&#xA;바로 가기&#xD;&#xA;입누죽(기탙) 파일&#xD;&#xA;Micr050ft Excel -&#xD;&#xA;Window5 배지 파일 크기 3&lt;8&#xD;&#xA;3&lt;8&#xD;&#xA;1 (8&#xD;&#xA;88,930&lt;8&#xD;&#xA;2&lt;8&#xD;&#xA;6삐773 (81&#xD;&#xA;88&lt;8&#xD;&#xA;1 (8" Position="193, 290">
+                        <uc:CVCache.CvUiElements>
+                          <scg:List x:TypeArguments="uc:CvElementInfo" Capacity="32">
+                            <uc:CvElementInfo Category="InputBox" Region="15, 93, 23, 22" />
+                            <uc:CvElementInfo Category="InputBox" Region="14, 114, 23, 21" />
+                            <uc:CvElementInfo Category="InputBox" Region="15, 74, 22, 19" />
+                            <uc:CvElementInfo Category="InputBox" Region="14, 51, 23, 22" />
+                            <uc:CvElementInfo Category="InputBox" Region="13, 30, 23, 22" />
+                            <uc:CvElementInfo Category="InputBox" Region="14, 135, 23, 22" />
+                            <uc:CvElementInfo Category="InputBox" Region="14, 156, 22, 22" />
+                            <uc:CvElementInfo Category="InputBox" Region="16, 179, 20, 18" />
+                            <uc:CvElementInfo Category="InputBox" Region="14, 2, 29, 21" />
+                            <uc:CvElementInfo Category="InputBox" Region="417, 1, 31, 23" />
+                            <uc:CvElementInfo Category="InputBox" Confidence="Runtime" Region="344, 53, 20, 18" />
+                            <uc:CvElementInfo Category="InputBox" Confidence="Runtime" Region="538, 2, 28, 21" />
+                            <uc:CvElementInfo Category="CheckBox" Confidence="Runtime" Region="271, 0, 143, 27" />
+                            <uc:CvElementInfo Category="CheckBox" Confidence="Runtime" Region="0, 131, 636, 358" />
+                            <uc:CvElementInfo Category="Button" Confidence="Runtime" Region="16, 179, 19, 18" />
+                            <uc:CvElementInfo Category="CheckBox" Confidence="Runtime" Region="414, 1, 125, 25" />
+                            <uc:CvElementInfo Category="ArrowButton" Confidence="Runtime" Region="35, 180, 17, 16" />
+                            <uc:CvElementInfo Category="ArrowButton" Confidence="Runtime" Region="133, 0, 17, 7" />
+                            <uc:CvElementInfo Category="InputBox" Confidence="Runtime" Region="36, 138, 15, 15" />
+                            <uc:CvElementInfo Category="InputBox" Confidence="Runtime" Region="37, 179, 26, 18" />
+                            <uc:CvElementInfo Category="InputBox" Confidence="Runtime" Region="365, 33, 16, 15" />
+                            <uc:CvElementInfo Category="InputBox" Confidence="Runtime" Region="368, 31, 28, 19" />
+                          </scg:List>
+                        </uc:CVCache.CvUiElements>
+                        <uc:CVCache.OcrTexts>
+                          <scg:List x:TypeArguments="uc:OcrTextInfo" Capacity="128">
+                            <uc:OcrTextInfo Region="38, 36, 35, 10" Text="Gather" />
+                            <uc:OcrTextInfo Region="39, 57, 50, 10" Text="Micr050ft" />
+                            <uc:OcrTextInfo Region="94, 57, 25, 13" Text="Edge" />
+                            <uc:OcrTextInfo Region="18, 78, 16, 13" Text="수" />
+                            <uc:OcrTextInfo Region="59, 79, 7, 9" Text="IJ" />
+                            <uc:OcrTextInfo Region="70, 78, 32, 10" Text="Cloud" />
+                            <uc:OcrTextInfo Region="18, 96, 16, 16" Text="得" />
+                            <uc:OcrTextInfo Region="39, 99, 120, 10" Text="UiPathRemoteRuntime" />
+                            <uc:OcrTextInfo Region="18, 117, 16, 16" Text="囹" />
+                            <uc:OcrTextInfo Region="38, 121, 31, 9" Text="Zoom" />
+                            <uc:OcrTextInfo Region="51, 162, 34, 11" Text="己l큘럼" />
+                            <uc:OcrTextInfo Region="93, 162, 163, 12" Text="및-교육시간표_Ui닫ath_R닫A전-_" />
+                            <uc:OcrTextInfo Region="38, 183, 24, 11" Text="크루" />
+                            <uc:OcrTextInfo Region="67, 183, 47, 11" Text="검색기릌" />
+                            <uc:OcrTextInfo Region="119, 183, 22, 11" Text="삭제" />
+                            <uc:OcrTextInfo Region="278, 7, 36, 11" Text="수성한" />
+                            <uc:OcrTextInfo Region="319, 7, 23, 11" Text="날짜" />
+                            <uc:OcrTextInfo Region="278, 36, 85, 12" Text="2021-09-27(결)" />
+                            <uc:OcrTextInfo Region="368, 36, 24, 11" Text="오후" />
+                            <uc:OcrTextInfo Region="396, 45, 3, 1" Text="-" />
+                            <uc:OcrTextInfo Region="278, 57, 85, 12" Text="2021-09-27(결)" />
+                            <uc:OcrTextInfo Region="368, 57, 24, 11" Text="오후" />
+                            <uc:OcrTextInfo Region="396, 66, 3, 1" Text="-" />
+                            <uc:OcrTextInfo Region="278, 79, 46, 9" Text="2021-05" />
+                            <uc:OcrTextInfo Region="278, 100, 47, 9" Text="2021-12" />
+                            <uc:OcrTextInfo Region="278, 121, 47, 9" Text="2021-12" />
+                            <uc:OcrTextInfo Region="278, 142, 47, 9" Text="2021-12" />
+                            <uc:OcrTextInfo Region="278, 163, 47, 9" Text="2021-12" />
+                            <uc:OcrTextInfo Region="278, 184, 46, 9" Text="2021-05" />
+                            <uc:OcrTextInfo Region="326, 78, 37, 12" Text="-19(수)" />
+                            <uc:OcrTextInfo Region="368, 78, 24, 11" Text="오후" />
+                            <uc:OcrTextInfo Region="396, 87, 3, 1" Text="-" />
+                            <uc:OcrTextInfo Region="326, 99, 37, 12" Text="-14(화)" />
+                            <uc:OcrTextInfo Region="368, 99, 23, 11" Text="오전" />
+                            <uc:OcrTextInfo Region="396, 108, 3, 1" Text="-" />
+                            <uc:OcrTextInfo Region="326, 120, 37, 12" Text="-10(금)" />
+                            <uc:OcrTextInfo Region="368, 120, 23, 11" Text="오전" />
+                            <uc:OcrTextInfo Region="396, 129, 3, 1" Text="-" />
+                            <uc:OcrTextInfo Region="326, 141, 37, 12" Text="-14(화)" />
+                            <uc:OcrTextInfo Region="368, 141, 23, 11" Text="오전" />
+                            <uc:OcrTextInfo Region="396, 150, 3, 1" Text="-" />
+                            <uc:OcrTextInfo Region="326, 162, 37, 12" Text="-14(화)" />
+                            <uc:OcrTextInfo Region="368, 162, 23, 11" Text="오전" />
+                            <uc:OcrTextInfo Region="396, 171, 3, 1" Text="-" />
+                            <uc:OcrTextInfo Region="326, 183, 37, 12" Text="-19(수)" />
+                            <uc:OcrTextInfo Region="368, 183, 24, 11" Text="오후" />
+                            <uc:OcrTextInfo Region="396, 192, 3, 1" Text="-" />
+                            <uc:OcrTextInfo Region="423, 36, 23, 11" Text="바로" />
+                            <uc:OcrTextInfo Region="451, 36, 21, 11" Text="가기" />
+                            <uc:OcrTextInfo Region="423, 57, 23, 11" Text="바로" />
+                            <uc:OcrTextInfo Region="451, 57, 21, 11" Text="가기" />
+                            <uc:OcrTextInfo Region="423, 78, 34, 11" Text="인터넷" />
+                            <uc:OcrTextInfo Region="463, 78, 23, 11" Text="바로" />
+                            <uc:OcrTextInfo Region="491, 78, 21, 11" Text="가기" />
+                            <uc:OcrTextInfo Region="422, 99, 49, 10" Text="Wind0W5" />
+                            <uc:OcrTextInfo Region="476, 99, 46, 10" Text="In5taller__" />
+                            <uc:OcrTextInfo Region="423, 120, 23, 11" Text="바로" />
+                            <uc:OcrTextInfo Region="451, 120, 21, 11" Text="가기" />
+                            <uc:OcrTextInfo Region="423, 141, 47, 12" Text="입누죽(기탙)" />
+                            <uc:OcrTextInfo Region="475, 141, 23, 11" Text="파일" />
+                            <uc:OcrTextInfo Region="423, 162, 50, 10" Text="Micr050ft" />
+                            <uc:OcrTextInfo Region="478, 162, 25, 10" Text="Excel" />
+                            <uc:OcrTextInfo Region="508, 171, 3, 1" Text="-" />
+                            <uc:OcrTextInfo Region="422, 183, 49, 10" Text="Window5" />
+                            <uc:OcrTextInfo Region="476, 183, 22, 11" Text="배지" />
+                            <uc:OcrTextInfo Region="503, 183, 23, 11" Text="파일" />
+                            <uc:OcrTextInfo Region="542, 7, 22, 11" Text="크기" />
+                            <uc:OcrTextInfo Region="587, 37, 21, 9" Text="3&lt;8" />
+                            <uc:OcrTextInfo Region="587, 58, 21, 9" Text="3&lt;8" />
+                            <uc:OcrTextInfo Region="588, 79, 4, 9" Text="1" />
+                            <uc:OcrTextInfo Region="595, 79, 13, 9" Text="(8" />
+                            <uc:OcrTextInfo Region="556, 100, 52, 11" Text="88,930&lt;8" />
+                            <uc:OcrTextInfo Region="587, 121, 21, 9" Text="2&lt;8" />
+                            <uc:OcrTextInfo Region="549, 142, 44, 11" Text="6삐773" />
+                            <uc:OcrTextInfo Region="595, 137, 17, 18" Text="(81" />
+                            <uc:OcrTextInfo Region="580, 163, 28, 9" Text="88&lt;8" />
+                            <uc:OcrTextInfo Region="588, 184, 4, 9" Text="1" />
+                            <uc:OcrTextInfo Region="595, 184, 13, 9" Text="(8" />
+                          </scg:List>
+                        </uc:CVCache.OcrTexts>
+                      </uc:CVCache>
+                    </scg:List>
+                  </uc:CvCacheContainer.Caches>
+                </uc:CvCacheContainer>
+              </p:CVScope.DesignTimeCacheContainer>
+              <p:CVScope.OCREngine>
+                <ActivityFunc x:TypeArguments="sd:Image, scg:IEnumerable(scg:KeyValuePair(sd:Rectangle, x:String))">
+                  <ActivityFunc.Argument>
+                    <DelegateInArgument x:TypeArguments="sd:Image" Name="Image" />
+                  </ActivityFunc.Argument>
+                  <ui:MicrosoftOCR FilterRegion="{x:Null}" Language="{x:Null}" Output="{x:Null}" Profile="{x:Null}" Scale="{x:Null}" Text="{x:Null}" ComputeSkewAngle="False" DisplayName="Microsoft OCR" ExtractWords="True" sap:VirtualizedContainerService.HintSize="200,22" sap2010:WorkflowViewState.IdRef="MicrosoftOCR_1" Image="[Image]" />
+                </ActivityFunc>
+              </p:CVScope.OCREngine>
+              <p:CVScope.Target>
+                <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="817de07e-bca6-4323-bdbf-89b3bcd62e4f" InformativeScreenshot="1d3fad8571b3dd1c15b0e01f378d25ef" Selector="&lt;wnd cls='ShellTabWindowClass' title='바탕 화면' /&gt;&lt;wnd aaname='탐색 창' cls='DirectUIHWND' /&gt;&lt;wnd aaname='셸 폴더 보기' cls='SHELLDLL_DefView' title='ShellView' /&gt;&lt;wnd aaname='항목 보기' cls='DirectUIHWND' /&gt;" WaitForReady="INTERACTIVE">
+                  <ui:Target.TimeoutMS>
+                    <InArgument x:TypeArguments="x:Int32" />
+                  </ui:Target.TimeoutMS>
+                </ui:Target>
+              </p:CVScope.Target>
+            </p:CVScope>
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="25, 192, 837, 617" FilePath="C:\Windows\explorer.exe" IconBase64="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" InformativeScreenshot="697cfff7ff8e6bab62700d95a188cba7.png" Selector="&lt;wnd app='explorer.exe' cls='CabinetWClass' title='바탕 화면'/&gt;" />
+      </uix:NApplicationCard.TargetApp>
+    </uix:NApplicationCard>
+  </Sequence>
+</Activity>

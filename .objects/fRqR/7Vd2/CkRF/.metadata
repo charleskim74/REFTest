@@ -1,0 +1,12 @@
+﻿{
+  "Id": "CkRFPnSL0k-QKRWBrUcR8A",
+  "Reference": "nDM0cMBCLkmWiyUXk1CTJw/CkRFPnSL0k-QKRWBrUcR8A",
+  "ParentRef": "nDM0cMBCLkmWiyUXk1CTJw/7Vd2LdxbU0uDlt98e4t4AA",
+  "Name": "바탕 화면",
+  "Type": "Screen",
+  "Created": "2021-12-14T02:30:12.3618356Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=21.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2021-12-14T02:30:12.3618356Z"
+}

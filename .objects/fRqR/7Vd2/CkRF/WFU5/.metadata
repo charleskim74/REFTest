@@ -1,0 +1,13 @@
+﻿{
+  "Id": "WFU5N0KFBk-V4PfNTMO25g",
+  "Reference": "nDM0cMBCLkmWiyUXk1CTJw/WFU5N0KFBk-V4PfNTMO25g",
+  "ParentRef": "nDM0cMBCLkmWiyUXk1CTJw/CkRFPnSL0k-QKRWBrUcR8A",
+  "Name": "바탕 화면",
+  "Type": "Element",
+  "TaxonomyType": "None",
+  "Created": "2021-12-14T02:30:19.835483Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=21.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2021-12-14T02:30:19.835483Z"
+}

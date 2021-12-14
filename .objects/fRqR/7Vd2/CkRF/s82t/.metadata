@@ -1,0 +1,13 @@
+﻿{
+  "Id": "s82tGWznP0qsDlL69_g6kw",
+  "Reference": "nDM0cMBCLkmWiyUXk1CTJw/s82tGWznP0qsDlL69_g6kw",
+  "ParentRef": "nDM0cMBCLkmWiyUXk1CTJw/CkRFPnSL0k-QKRWBrUcR8A",
+  "Name": "3D 개체",
+  "Type": "Element",
+  "TaxonomyType": "None",
+  "Created": "2021-12-14T02:30:18.8669049Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=21.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2021-12-14T02:30:18.8669049Z"
+}

@@ -1,0 +1,13 @@
+﻿{
+  "Id": "WdsrQ-FuT0i4xsFgTPKyiA",
+  "Reference": "nDM0cMBCLkmWiyUXk1CTJw/WdsrQ-FuT0i4xsFgTPKyiA",
+  "ParentRef": "nDM0cMBCLkmWiyUXk1CTJw/CkRFPnSL0k-QKRWBrUcR8A",
+  "Name": "열기 (4)",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Created": "2021-12-14T02:30:16.1168804Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=21.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2021-12-14T02:30:16.1168804Z"
+}

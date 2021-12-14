@@ -1,0 +1,13 @@
+﻿{
+  "Id": "RRezxi30f0uy0bTpz_EKtw",
+  "Reference": "nDM0cMBCLkmWiyUXk1CTJw/RRezxi30f0uy0bTpz_EKtw",
+  "ParentRef": "nDM0cMBCLkmWiyUXk1CTJw/CkRFPnSL0k-QKRWBrUcR8A",
+  "Name": "자세히",
+  "Type": "Element",
+  "TaxonomyType": "RadioButton",
+  "Created": "2021-12-14T02:30:20.856031Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=21.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2021-12-14T02:30:20.856031Z"
+}

@@ -1,0 +1,13 @@
+﻿{
+  "Id": "H4ryTNbIh0qn4NP4wfFlcw",
+  "Reference": "nDM0cMBCLkmWiyUXk1CTJw/H4ryTNbIh0qn4NP4wfFlcw",
+  "ParentRef": "nDM0cMBCLkmWiyUXk1CTJw/CkRFPnSL0k-QKRWBrUcR8A",
+  "Name": "문서(고정됨)",
+  "Type": "Element",
+  "TaxonomyType": "None",
+  "Created": "2021-12-14T02:30:17.1930574Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=21.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2021-12-14T02:30:17.1930574Z"
+}

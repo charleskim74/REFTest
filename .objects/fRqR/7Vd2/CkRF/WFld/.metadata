@@ -1,0 +1,13 @@
+﻿{
+  "Id": "WFld8KO-70SAFK1_cdlEYQ",
+  "Reference": "nDM0cMBCLkmWiyUXk1CTJw/WFld8KO-70SAFK1_cdlEYQ",
+  "ParentRef": "nDM0cMBCLkmWiyUXk1CTJw/CkRFPnSL0k-QKRWBrUcR8A",
+  "Name": "사진",
+  "Type": "Element",
+  "TaxonomyType": "None",
+  "Created": "2021-12-14T02:30:20.0700472Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=21.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2021-12-14T02:30:20.0700472Z"
+}

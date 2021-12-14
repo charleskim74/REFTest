@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-16"?>
+<TargetAnchorable ContentHash="2hKCt18d90O3btoVdXfKyQ" DesignTimeRectangle="72, 61, 15, 30" ElementType="Button" FriendlyName="'최근 위치'" FullSelectorArgument="&lt;wnd cls='ToolbarWindow32' title='탐색 단추' /&gt;&lt;ctrl name='탐색 단추' role='tool bar' /&gt;&lt;ctrl name='최근 위치' role='push button' /&gt;" FuzzySelectorArgument="&lt;wnd cls='ToolbarWindow32' title='탐색 단추' /&gt;&lt;ctrl name='탐색 단추' role='tool bar' /&gt;&lt;ctrl name='최근 위치' role='push button' automationid='' check:text='최근 위치' /&gt;" Guid="1c7851dd-a52b-49f2-b70d-cb0efccaf666" ScopeSelectorArgument="&lt;wnd app='explorer.exe' cls='CabinetWClass' title='바탕 화면' /&gt;" SearchSteps="Selector, FuzzySelector, Image" xmlns="http://schemas.uipath.com/workflow/activities/uix">
+  <imageRef attrName="ImageBase64" xmlns="">0rO9Amrufu0KPxz1P_XkJPg</imageRef>
+  <imageRef attrName="InformativeScreenshot" originalValue="930040dbd9c76b9e5f469116c6c2eb79.png" xmlns="">0vYi-wkuH-UOXXb412Og0Ow</imageRef>
+</TargetAnchorable>

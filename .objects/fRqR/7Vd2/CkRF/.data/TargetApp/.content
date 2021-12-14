@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-16"?>
+<TargetApp Area="0, 0, 0, 0" ContentHash="-kQQYh53oUSQ0QNcyyfFXA" FilePath="C:\Windows\explorer.exe" Selector="&lt;wnd app='explorer.exe' cls='CabinetWClass' title='바탕 화면' /&gt;" xmlns="http://schemas.uipath.com/workflow/activities/uix">
+  <imageRef attrName="IconBase64" xmlns="">0Ng5aPVYBkE-MVeUhHcN6tw</imageRef>
+  <imageRef attrName="InformativeScreenshot" originalValue="5c2064f5a1210a35f242cd3044e5d03e.png" xmlns="">03jJnun9ehE2E5TXHp9xgtw</imageRef>
+</TargetApp>

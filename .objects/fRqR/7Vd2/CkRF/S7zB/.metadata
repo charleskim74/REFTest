@@ -1,0 +1,13 @@
+﻿{
+  "Id": "S7zB6VYDoUe3qrI3whq48w",
+  "Reference": "nDM0cMBCLkmWiyUXk1CTJw/S7zB6VYDoUe3qrI3whq48w",
+  "ParentRef": "nDM0cMBCLkmWiyUXk1CTJw/CkRFPnSL0k-QKRWBrUcR8A",
+  "Name": "로컬 디스크 (D:)",
+  "Type": "Element",
+  "TaxonomyType": "None",
+  "Created": "2021-12-14T02:30:20.5467687Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=21.10.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2021-12-14T02:30:20.5467687Z"
+}

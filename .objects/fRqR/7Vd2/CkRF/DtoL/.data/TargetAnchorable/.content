@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-16"?>
+<TargetAnchorable ContentHash="qNUjGDcs0k6fEjNMcIY2kg" DesignTimeRectangle="313, 61, 59, 29" ElementType="Button" FriendlyName="'사용자'" FullSelectorArgument="&lt;wnd cls='ToolbarWindow32' title='주소: C:\Users\User\Desktop' /&gt;&lt;ctrl name='주소: C:\Users\User\Desktop' role='tool bar' /&gt;&lt;ctrl name='사용자' role='split button' /&gt;" FuzzySelectorArgument="&lt;wnd cls='ToolbarWindow32' title='주소: C:\Users\User\Desktop' /&gt;&lt;ctrl name='주소: C:\Users\User\Desktop' role='tool bar' /&gt;&lt;ctrl name='사용자' role='split button' automationid='' check:text='사용자' /&gt;" Guid="595613f1-0f5c-49c9-96b6-85aea2fd828f" ScopeSelectorArgument="&lt;wnd app='explorer.exe' cls='CabinetWClass' title='바탕 화면' /&gt;" SearchSteps="Selector, FuzzySelector, Image" xmlns="http://schemas.uipath.com/workflow/activities/uix">
+  <imageRef attrName="ImageBase64" xmlns="">0wsg9ZCY7l0W4l66p3C9a6g</imageRef>
+  <imageRef attrName="InformativeScreenshot" originalValue="e6152d42b87d0f871a61d3337b4e1af5.png" xmlns="">0EerX-BLOyUqfNCPdLUVjhQ</imageRef>
+</TargetAnchorable>

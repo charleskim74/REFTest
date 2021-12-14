@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-16"?>
+<TargetAnchorable ContentHash="KptDXMpY6kqeZS8gE1Ugtw" DesignTimeRectangle="783, 1, 47, 30" ElementType="Button" FriendlyName="'닫기'" FullSelectorArgument="&lt;ctrl name='닫기' role='push button' /&gt;" FuzzySelectorArgument="&lt;ctrl name='닫기' role='push button' automationid='' check:text='닫기' /&gt;" Guid="70ae00e0-58ca-40a0-ba91-6765513353a7" ScopeSelectorArgument="&lt;wnd app='explorer.exe' cls='CabinetWClass' title='바탕 화면' /&gt;" SearchSteps="Selector, FuzzySelector, Image" xmlns="http://schemas.uipath.com/workflow/activities/uix">
+  <imageRef attrName="ImageBase64" xmlns="">09N9RcOiStU-3QiksHKqRKQ</imageRef>
+  <imageRef attrName="InformativeScreenshot" originalValue="5ee6c5df303f332ee3edc76b5ec100c8.png" xmlns="">0G839hI9Aj0qvvJDskOx9aQ</imageRef>
+</TargetAnchorable>

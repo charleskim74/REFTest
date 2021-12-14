@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-16"?>
+<TargetAnchorable ContentHash="U18yZDujrkCiNRV_FHo_bw" DesignTimeRectangle="12, 61, 30, 30" ElementType="Button" FriendlyName="'뒤로(Alt+왼쪽 화살표)'" FullSelectorArgument="&lt;wnd cls='ToolbarWindow32' title='탐색 단추' /&gt;&lt;ctrl name='탐색 단추' role='tool bar' /&gt;&lt;ctrl name='뒤로(Alt+왼쪽 화살표)' role='push button' /&gt;" FuzzySelectorArgument="&lt;wnd cls='ToolbarWindow32' title='탐색 단추' /&gt;&lt;ctrl name='탐색 단추' role='tool bar' /&gt;&lt;ctrl name='뒤로(Alt+왼쪽 화살표)' role='push button' automationid='' check:text='뒤로(Alt+왼쪽 화살표)' /&gt;" Guid="220c8685-f805-4c4a-b2ec-6807634e71af" ScopeSelectorArgument="&lt;wnd app='explorer.exe' cls='CabinetWClass' title='바탕 화면' /&gt;" SearchSteps="Selector, FuzzySelector, Image" xmlns="http://schemas.uipath.com/workflow/activities/uix">
+  <imageRef attrName="ImageBase64" xmlns="">0J1mch2RlA02-YmKW1glECA</imageRef>
+  <imageRef attrName="InformativeScreenshot" originalValue="5acb4df760699fb1de44f4e21ce71bc2.png" xmlns="">0_Y9KtQm_RUynSTzSelcX5A</imageRef>
+</TargetAnchorable>
