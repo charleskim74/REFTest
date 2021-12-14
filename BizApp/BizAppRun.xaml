@@ -1,4 +1,4 @@
-<Activity mc:Ignorable="sap sap2010" x:Class="BizAppRun" mva:VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="1184,1678" sap2010:WorkflowViewState.IdRef="BizAppRun_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mva="clr-namespace:Microsoft.VisualBasic.Activities;assembly=System.Activities" xmlns:p="http://schemas.uipath.com/workflow/activities/cv" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=mscorlib" xmlns:sd="clr-namespace:System.Drawing;assembly=System.Drawing" xmlns:uc="clr-namespace:UiPath.CV;assembly=UiPath.CV" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Activity mc:Ignorable="sap sap2010" x:Class="BizAppRun" mva:VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="1184,1767" sap2010:WorkflowViewState.IdRef="BizAppRun_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mva="clr-namespace:Microsoft.VisualBasic.Activities;assembly=System.Activities" xmlns:p="http://schemas.uipath.com/workflow/activities/cv" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=mscorlib" xmlns:sd="clr-namespace:System.Drawing;assembly=System.Drawing" xmlns:uc="clr-namespace:UiPath.CV;assembly=UiPath.CV" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <TextExpression.NamespacesForImplementation>
     <sco:Collection x:TypeArguments="x:String">
       <x:String>System.Activities</x:String>
@@ -40,6 +40,9 @@
       <x:String>UiPath.OCR.Contracts.Activities</x:String>
       <x:String>UiPath.Core.Activities.OCR.Engines</x:String>
       <x:String>UiPath.CV.Activities.Interfaces</x:String>
+      <x:String>UiPath.UIAutomationNext.Contracts</x:String>
+      <x:String>System.Security</x:String>
+      <x:String>System.ComponentModel</x:String>
     </sco:Collection>
   </TextExpression.NamespacesForImplementation>
   <TextExpression.ReferencesForImplementation>
@@ -85,19 +88,19 @@
       <AssemblyReference>System.Runtime.WindowsRuntime</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="BizAppRun" sap:VirtualizedContainerService.HintSize="672,1613" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="BizAppRun" sap:VirtualizedContainerService.HintSize="672,1702" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Application: 바탕 화면" sap:VirtualizedContainerService.HintSize="630,1521" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" ScopeGuid="98b09e0c-5fd6-483d-9836-3677e99eab68" Version="V1">
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Application: 바탕 화면" sap:VirtualizedContainerService.HintSize="630,1610" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" ScopeGuid="98b09e0c-5fd6-483d-9836-3677e99eab68" Version="V1">
       <uix:NApplicationCard.Body>
         <ActivityAction x:TypeArguments="x:Object">
           <ActivityAction.Argument>
             <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
           </ActivityAction.Argument>
-          <Sequence DisplayName="실행" sap:VirtualizedContainerService.HintSize="596,1229" sap2010:WorkflowViewState.IdRef="Sequence_3">
+          <Sequence DisplayName="실행" sap:VirtualizedContainerService.HintSize="596,1318" sap2010:WorkflowViewState.IdRef="Sequence_3">
             <Sequence.Variables>
               <Variable x:TypeArguments="x:String" Default="커리큘럼_및_교육시간표_UiPath_RPA전문가교육" Name="FileName" />
             </Sequence.Variables>
@@ -106,18 +109,11 @@
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
-            <ui:WaitUiElementAppear FoundElement="{x:Null}" WaitActive="{x:Null}" WaitVisible="{x:Null}" DisplayName="Find Element" sap:VirtualizedContainerService.HintSize="554,68" sap2010:WorkflowViewState.IdRef="WaitUiElementAppear_1">
-              <ui:WaitUiElementAppear.Target>
-                <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Selector="{x:Null}" Id="55468b9c-3fa7-4997-a65d-5b9769940426">
-                  <ui:Target.TimeoutMS>
-                    <InArgument x:TypeArguments="x:Int32" />
-                  </ui:Target.TimeoutMS>
-                  <ui:Target.WaitForReady>
-                    <InArgument x:TypeArguments="ui:WaitForReady" />
-                  </ui:Target.WaitForReady>
-                </ui:Target>
-              </ui:WaitUiElementAppear.Target>
-            </ui:WaitUiElementAppear>
+            <uix:NClick ClickType="Single" DisplayName="Click 'graphic (5)'" sap:VirtualizedContainerService.HintSize="554,157" sap2010:WorkflowViewState.IdRef="NClick_2" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="98b09e0c-5fd6-483d-9836-3677e99eab68" Version="V1">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable ContentHash="VAWOWqPwxkSuKIyEjJSK3A" DesignTimeRectangle="186, 234, 18, 22" ElementType="Icon" FriendlyName="'graphic (5)'" FullSelectorArgument="&lt;wnd cls='ShellTabWindowClass' title='바탕 화면' /&gt;&lt;wnd aaname='탐색 창' cls='DirectUIHWND' /&gt;&lt;wnd aaname='셸 폴더 보기' cls='SHELLDLL_DefView' title='ShellView' /&gt;&lt;wnd aaname='항목 보기' cls='DirectUIHWND' /&gt;&lt;ctrl name='항목 보기' role='list' /&gt;&lt;ctrl automationid='5' /&gt;&lt;ctrl role='graphic' /&gt;" FuzzySelectorArgument="&lt;wnd cls='ShellTabWindowClass' title='바탕 화면' /&gt;&lt;wnd aaname='탐색 창' cls='DirectUIHWND' /&gt;&lt;wnd aaname='셸 폴더 보기' cls='SHELLDLL_DefView' title='ShellView' /&gt;&lt;wnd aaname='항목 보기' cls='DirectUIHWND' /&gt;&lt;ctrl name='항목 보기' role='list' /&gt;&lt;ctrl automationid='5' /&gt;&lt;ctrl role='graphic' automationid='' /&gt;" Guid="a95c8702-6c99-4c18-867f-c60e99e973a1" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAABYAAAAaCAYAAACzdqxAAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAKCSURBVEhL7ZTLT1NBHIVdm5jo0qX+F2yUECH4xge6NzFxazRxY0xII2l9kCJviKJJF00IRsAHCwVNBKQglNaUQqEthQJVCipGDXdmjvObyx1uW2g0UVcsvszcmXO+O5203SGEwL9gW6zJERtMIJwSeBIUaPUJNA8INBH95pzWaI8ylM3uW2SIv/0U8AwLXPQKnH8ocG4LaI8ylKWO3WGhxfR2zxBH+QOBs/fX0XOe9WzOy1vNzmYn1+LQgsAFD8fplj+DOtS1SwktbvcLnGriKJOcbMzlxPpo36c5dahrlxJa3PJWhhs4jtdz3Oji6AyIDNpGBK49Nvcvt3Fc75Avk3nqUNcuJbS49rUs1TEcq2XoHMsNEvSRHc855lYEugJcZalD3eysFlf3cBytYThyb2tx6ovAYMzcowxlqUPd7KwWTyW/Yj61gqRkdnEZiYU0ZpJpxOaWkJhPq4wSR01Jh5+j1M1wWOJ+mUdMMvuGncl4So2LnwVcLzgSaSke5SipYiiVVOcTx+XJrHmBN4m9jXHsb4yp59D0PNqHORp65Z26DVx6xHDVy1B8x0CJpL6H6a7FxlXMmKcinANp7LkbwU5HWD0HJuZQ5DIUh26ZozUvlngH85w4HF1QY2XfEnY5J+F48wn7nBNqbTSUQJFTyjbhTI2B4Gwe8YdIEivfmTzlOCp6P2aEhoIxFN40ciiqNNAsryfvT9o/nlDjspRbaxYD/mkcdKxpCiVlVWtokne7+iMza6HFQXmPdDJfIIp3Y1El6x+ZQt/7CF754nA9Zbj9TH4Duhk8fQyBBMfa7/5t/k22xZr/L+6eWMWVrkUcaIhjd0VYUVAXU2u0t1lnA4FfE9EygYnss8QAAAAASUVORK5CYII=" InformativeScreenshot="69467dce14c4864c1de0d2a6e6b86ebf.png" Reference="nDM0cMBCLkmWiyUXk1CTJw/Tex5msmxI0-ubeDBQtscPQ" ScopeSelectorArgument="&lt;wnd app='explorer.exe' cls='CabinetWClass' title='바탕 화면' /&gt;" SearchSteps="Selector, FuzzySelector, Image" />
+              </uix:NClick.Target>
+            </uix:NClick>
             <uix:NCheckState Exists="{x:Null}" DisplayName="Check App State '수업교재'" sap:VirtualizedContainerService.HintSize="554,343" sap2010:WorkflowViewState.IdRef="NCheckState_1" ScopeIdentifier="98b09e0c-5fd6-483d-9836-3677e99eab68" Timeout="10" Version="V1">
               <uix:NCheckState.IfExists>
                 <Sequence DisplayName="타겟이 나타남" sap:VirtualizedContainerService.HintSize="250,85" sap2010:WorkflowViewState.IdRef="Sequence_4">
